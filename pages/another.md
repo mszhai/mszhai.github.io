@@ -4,7 +4,10 @@ layout: default
 
 ## Welcome to another
 
-[aa](index)
+[aa](/)
+
 _yay_
 
-[back](./)
+[back](site.url)
+
+[back]{{site.url}}
