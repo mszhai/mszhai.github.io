@@ -16,12 +16,6 @@
 
     <section class="main-content">
         <div class="content wrapper">
-            <span>aaaa-- {{ site.title }} </span>
-            {% for post in site.posts %}
-                {{ post.date | date_to_long_string }}<br>
-                <a href="{{ post.url }}">{{ post.title }}</a><br>
-                <br>
-            {% endfor %}
             {{ content }}
         </div>
         <footer class="site-footer">

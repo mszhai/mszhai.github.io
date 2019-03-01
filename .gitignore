@@ -102,3 +102,4 @@ ENV/
 
 /_site
 /.sass-cache
+Gemfile.lock
