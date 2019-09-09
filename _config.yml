@@ -1,6 +1,6 @@
 name: mszhai
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: 数据挖掘相关
+description: 对于数据挖掘和机器学习的学习、研究的记录和总结
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
@@ -12,19 +12,19 @@ github:
 # Site settings
 baseurl: "" 
 #change the baseurl to "" if you are using it as your user GitHub Pages
-url: "https://yk-liu.github.io"  
+url: "https://mszhai.github.io"  
 
 
 # GitHub User settings
 username: mszhai
 github_username: mszhai
-user_description: user_description
-user_title: user_title
+user_description: 对于数据挖掘和机器学习的学习、研究的记录和总结
+user_title: 数据挖掘相关
 email: 
 
 # Blog Author settings
 author:
-  name:            
+  name: mszhai
   picture:        
   email:           
   description:     

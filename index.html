@@ -2,11 +2,11 @@
 layout: home1
 ---
 <div class="user-details">
-<h2> Me and this website </h2>
-<p style="text-align: justify;"> Your description </p>
+<h2> 主要内容 </h2>
+<p style="text-align: justify;"> 对于数据挖掘和机器学习的学习、研究的记录和总结。 </p>
 </div>
 <div class="permlinks">
-<h2>Recent Posts</h2>
+<h2>最新的文章</h2>
 <dl>
 	{% for post in site.posts limit:3 %}
 	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i><a href="{{ post.url }}">{{ post.title }}</a> &nbsp;{% include status-indicator.html status=post.status%}
@@ -15,7 +15,7 @@ layout: home1
     </dd>
 	{% endif %}
 	{% endfor %}
-	<p>... <a href="/blog">Full Posts List</a> </p>
+	<p><a href="/blog">全部文章列表</a>...... </p>
 </dl>
 
 <!-- <h2>Upcoming Posts</h2>
