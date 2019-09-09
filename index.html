@@ -1,9 +1,27 @@
 ---
-layout: default
+layout: home1
 ---
+<div class="user-details">
+<h2> Me and this website </h2>
+<p style="text-align: justify;"> Your description </p>
+</div>
+<div class="permlinks">
+<h2>Recent Posts</h2>
+<dl>
+	{% for post in site.posts limit:3 %}
+	<dt><code>{{ post.date | date_to_string }} </code><i class="fas fa-angle-double-right" aria-hidden="true"></i><a href="{{ post.url }}">{{ post.title }}</a> &nbsp;{% include status-indicator.html status=post.status%}
+	{% if post.description %}
+ <dd style="text-align: justify">{{ post.description | markdownify }}
+    </dd>
+	{% endif %}
+	{% endfor %}
+	<p>... <a href="/blog">Full Posts List</a> </p>
+</dl>
 
-{% for post in site.posts %}
-	{{ post.date | date_to_long_string }}<br>
-	<a href="{{ post.url }}">{{ post.title }}</a><br>
-	<br>
-{% endfor %}
+<!-- <h2>Upcoming Posts</h2>
+<ul>
+	<li>Post 1</li>
+	<li>Post 2</li>
+</ul> -->
+
+</div >

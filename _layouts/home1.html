@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+</head>
+
+<body>
+    <section class="page-header">
+        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        <a href="{{ site.github.url1 }}" class="btn">数据挖掘</a>
+        <a href="" class="btn">机器学习</a>
+    </section>
+
+    <section class="main-content">
+        <div class="content wrapper">
+            {{ content }}
+        </div>
+        {% include footer.html analytics=false %} 
+    </section>
+</body>
+
+</html>

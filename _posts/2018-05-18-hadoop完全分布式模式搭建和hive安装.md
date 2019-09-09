@@ -1,9 +1,13 @@
 ---
 layout: post
 title: hadoop完全分布式模式搭建和hive安装
+category: Fortran
+tags: Fortran Coding
+keywords: Fortran Visual-Studio
+description: Instructions on using Fortran with VS2017
 ---
 
-# hadoop完全分布式模式搭建和hive安装
+# aa
 
 ## 简介
 
